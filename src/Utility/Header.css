@@ -1,0 +1,27 @@
+.the{
+    font-size: 2em;
+    transform: rotate(-90deg);
+}
+.siren{
+    background-color: black;
+    color: white;
+    font-size: 3em;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(84, 106, 106);
+    
+}
+.nav{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+.nav:hover{
+    background-color:bisque;
+    color: red;
+    font-weight: bold;
+}
