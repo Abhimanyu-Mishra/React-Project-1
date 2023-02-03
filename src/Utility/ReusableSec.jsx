@@ -1,12 +1,11 @@
 import React from 'react'
 
-const Money = () => {
+const ReusableSec = () => {
   return (
     <div>
-    This is Money
-
+      
     </div>
   )
 }
 
-export default Money
+export default ReusableSec

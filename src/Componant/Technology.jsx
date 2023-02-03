@@ -2,19 +2,19 @@ import React from 'react'
 import { useContext } from 'react'
 import { store } from './Details'
 import Reusable from '../Utility/Reusable'
-const News = () => {
-const [data]=useContext(store)
-console.log(data);
-
+const Technology = () => {
+  const [data]=useContext(store)
+  console.log(data);
   return (
     <div>
-    <h1>Hollywood</h1>
+    <div >
+    <h1>Technology</h1>
     <div className='line'></div>
     <div className='parent'>
     <div className='div1'>
 
   {
-    data.filter((i)=>{return(i.category==='Hollywood')}).map((n)=>(
+    data.filter((i)=>{return(i.category==='Technology')}).map((n)=>(
       
         <Reusable
         key={n.id}
@@ -36,7 +36,7 @@ console.log(data);
     <h1>Top Post</h1>
     <div className='line'></div>
     {
-      data.filter((i)=>{return(i.category==='Hollywood')}).map((n)=>(
+      data.filter((i)=>{return(i.category==='Technology')}).map((n)=>(
         
           <Reusable
           key={n.id}
@@ -55,10 +55,11 @@ console.log(data);
     </div>
 
     </div>
+ </div>
 
 
     </div>
   )
 }
 
-export default News
+export default Technology

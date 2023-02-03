@@ -1,0 +1,19 @@
+.maindiv{
+    display: flex;
+    margin: 2%;
+}
+.sub1{
+    width: 94%;
+    height: 97%;
+    border-radius: 15px;
+    margin: 1%;
+}
+.mini1{
+    border-radius: 15px;
+    margin: 1%;
+    
+}
+.mini2{
+    border-radius: 15px;
+    margin: 1%; 
+}

@@ -1,0 +1,15 @@
+.card-main{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+.card1{
+    width: 40%;
+    padding: 10px;
+}
+.descrp{
+    width: 50%;
+}
+img{
+     border-radius: 20px;
+}
