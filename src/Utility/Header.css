@@ -51,15 +51,21 @@ align-items: center;
 }
 
 @media only screen and (max-width:400px) {
-    .media-btn{
+    /* .media-btn{
         transform: rotate(90deg);
         background-color: antiquewhite;
         display: block;
         margin-left:70%;
-    }
+    } */
 
+    .navbar{
+        display: block;
+    }
     .nav{
-        display: none;
+        display: block;
+        padding: 1px;
+        justify-content: flex-end;
+
     }
    
 }
