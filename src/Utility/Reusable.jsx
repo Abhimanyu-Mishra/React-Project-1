@@ -4,7 +4,7 @@ import './Reusable.css'
 const Reusable = (props) => {
   const {imgUrl,title,description} = props
   return (
-    <Link to= '/card' state={{imgUrl:imgUrl,title:title,description:description}}>
+    <Link className='link' to= '/card' state={{imgUrl:imgUrl,title:title,description:description}}>
     <div className='card-main' >
       <div className='card1'>
 
@@ -12,8 +12,9 @@ const Reusable = (props) => {
        <hr/>
       </div>
         <div className='descrp'>
-         <div style={{fontSize:'1.6em'}}>{title}</div>
-         <p>{description}</p>
+         <div className='title'>{title}</div>
+         <p className='p'> {description}</p>
+         
          <hr/>
         </div>
         

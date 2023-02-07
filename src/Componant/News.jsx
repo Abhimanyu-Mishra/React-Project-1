@@ -51,7 +51,7 @@ console.log(data);
         
       ))
     }
-    <div className='adver'> </div>
+    <div className='adver'> Advertisement </div>
     </div>
 
     </div>

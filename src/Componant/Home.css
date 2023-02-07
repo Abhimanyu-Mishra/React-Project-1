@@ -3,17 +3,32 @@
     margin: 2%;
 }
 .sub1{
-    width: 94%;
+    width: 97%;
     height: 97%;
     border-radius: 15px;
     margin: 1%;
+    border-radius: 15px;
 }
 .mini1{
     border-radius: 15px;
     margin: 1%;
-    
+    height: 50%;
 }
 .mini2{
     border-radius: 15px;
     margin: 1%; 
+    height: 50%;
 }
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1%;
+    
+}
+img {
+    height: 94%;
+    width: 100%;
+}
+
+
+    

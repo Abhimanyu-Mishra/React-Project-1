@@ -3,7 +3,6 @@ import { useContext } from 'react'
 import { store } from './Details'
 import Reusable from '../Utility/Reusable'
 import './Movies.css'
-import { Link } from 'react-router-dom'
 const Bollywood = () => {
 
   const[data]=useContext(store)
@@ -26,10 +25,7 @@ const Bollywood = () => {
                   description={n.description.slice(0, 200)}
                   author={n.author}
           
-          />
-          
-          
-        
+          /> 
       ))
     }
    
@@ -54,7 +50,7 @@ const Bollywood = () => {
           
         ))
       }
-      <div className='adver'> </div>
+      <div className='adver'> Advertisement </div>
       </div>
 
       </div>

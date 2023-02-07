@@ -1,0 +1,19 @@
+.card2{
+   
+   border-radius: 5px;
+   
+}
+.insidediv{
+    width: 96%;
+    height: 300px;
+}
+.width30{
+    width: 100%;
+    
+}
+@media only  screen and (max-width:450px) {
+    .insidediv{
+        height: 100px;
+    }
+    
+}
